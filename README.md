@@ -25,13 +25,16 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer:  Client-side routing is when the client sends multiple requests to the server to fetch what it needs.  This initial fetching can cause in longer load times up front, but will have faster loading times after the initial loading.  From what I can tell, this is a more recent approach.  The one obvious benefit is speed, but most that I've read claim that SEO isn't as developed as server-side routing.  A few solutions have been recommended, but are still underdeveloped.
+
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer:  AJAX stands for 'asynchronous JavaScript and XML' and it allows us to only rerender certain components of our page only when it's necessary.  Without it, any change made to our data would require a full rerendering of our page.  I don't know for sure, but this seems costsly in terms of power and time.
+
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer:  Controlled components are components where we control the information that is going to displayed on the UI via state and props.  An uncontrolled component is one where do not control the information that is going to be shown via React.
+
 - [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
+> Answer:  FetchAPI, jQuery, and Axios
 
 
 ## Project Set Up
